@@ -1,2 +1,28 @@
+/* Color Palette */
+.color-1{
+    background: red;
+}
 
+.color-2{
+    background: blue;
+}
 
+.color-3{
+    background: white;
+}
+
+.color-4{
+    background: black;
+}
+
+/* Textures & Patterns */
+
+.pattern-1{
+    background: url("http://st.depositphotos.com/1482106/3224/i/950/depositphotos_32244871-Usa-flag-on-luxury-crocodile.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.pattern-2{
+    
+}
