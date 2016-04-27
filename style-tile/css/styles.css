@@ -36,3 +36,14 @@
     box-shadow: -10px -10px 20px red;
 
 }
+
+/* Icons */
+
+.icon-1 img {
+    border: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
