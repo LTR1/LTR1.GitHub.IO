@@ -46,4 +46,23 @@
 nav li {
     list-style: none;
     display: inline-block;
+    float: left;
+    
+}
+
+nav a {
+    background: red;
+    padding: 20px 20px 5px 20px;
+    width: 100px;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+}
+
+nav a:hover{
+    background: black;
+    color: aqua;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
 }
