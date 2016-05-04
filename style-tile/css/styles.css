@@ -18,13 +18,19 @@
 /* Textures & Patterns */
 
 .pattern-1{
-    background: url("http://st.depositphotos.com/1482106/3224/i/950/depositphotos_32244871-Usa-flag-on-luxury-crocodile.jpg") no-repeat;
+    background: url("../img/Mountain_Texture.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: cover;
 }
 
 .pattern-2{
-    background: url("../img/Apple_pie.jpg") no-repeat;
+    background: url("../img/Metal_Texture.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.pattern-3{
+    background: url("../img/Carbon-Fibre-Texture.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
 }
@@ -67,29 +73,54 @@
 
 nav li {
     list-style: none;
-    display: inline-block;
+    display: ilnine;
     float: left;
     
 }
 
 nav a {
     background: #555252;
-    padding: 20px 20px 5px 20px;
     width: 100px;
-    margin: 0 10px 0 10px;
-    text-decoration: none;
     border-bottom: 2px solid #131714;
-    color: #be1f2b;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
 
 nav a:hover{
     background: #e0a649;
-    color: white;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    
+    color: black;    
+}
+
+h1,h2,h3{
+    font-family: serif;
+    margin:50px 0px 0px 0px; 
 }
 
 h1{
-   margin:50px 0px 0px 0px; 
+    font-size: 24pt;
+}
+
+h2 {
+    font-size: 16pt;
+}
+
+h3 {
+    font-size: 12pt;
+}
+
+p {
+    font-family: "Courier New", Courier, monospace;    
+    font-size: 10pt;
+}
+
+body {
+    background-color: grey;
+}
+
+.content {
+    background-color: white;
 }
