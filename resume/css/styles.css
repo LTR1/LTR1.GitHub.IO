@@ -96,7 +96,7 @@ figure {
 }
 
 figure img {
-    opacity: .5;
+    opacity: 0;
     max-width: 62.5em;
     padding-bottom: 500px;
     left: 30px; 
